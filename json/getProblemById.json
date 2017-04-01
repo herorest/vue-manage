@@ -1,0 +1,23 @@
+{
+    "returnCode": 200,
+    "returnMessage": "",
+    "returnValue": {
+        "id": 93,
+        "typeId": 1,
+        "title": "54325",
+        "errorCode": 0,
+        "description": "432543",
+        "status": 0,
+        "attached": 0,
+        "userId": 1462350,
+        "createTime": 1480477461000,
+        "updateTime": null,
+        "redmineUrl": "2345",
+        "typename": "问题",
+        "attachments": null,
+        "userName": "appd",
+        "respUserName": "",
+        "causeType": ""
+    },
+    "returnUrl": ""
+}

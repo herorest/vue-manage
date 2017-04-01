@@ -1,0 +1,14 @@
+{
+    "returnCode": 200,
+    "returnMessage": "",
+    "returnValue": [{
+        "id": 1,
+        "type": "云问题",
+        "email": "leichangchun@meizu.com"
+    }, {
+        "id": 2,
+        "type": "误操作",
+        "email": "leichangchun@meizu.com"
+    }],
+    "returnUrl": ""
+}

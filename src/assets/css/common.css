@@ -1,0 +1,114 @@
+html, body, .wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    background: #f6f6f6;
+}
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.content {
+    width: -webkit-calc(100% - 220px);
+    width: -moz-calc(100% - 220px);
+    width: calc(100% - 220px);
+    height:100%;
+    float: left;
+}
+.main {
+    background: #fff;
+    padding: 20px;
+    margin:30px;
+    height: -webkit-calc(100% - 60px - 60px);
+    height: -moz-calc(100% - 60px - 60px);
+    height: calc(100% - 60px - 60px);
+    position:relative;
+}
+.main .welcome{
+    width:232px;
+    height:300px;
+    background:url(../images/welcome.jpg) no-repeat;
+    margin:200px auto 0;
+    padding:230px 0 0;
+    line-height:32px;
+    text-align: center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-200px 0 0 -116px;
+    font-size:16px;
+}
+.btns {
+    text-align: center;
+}
+.btns a {
+    display: inline-block;
+    margin: 0 20px;
+}
+.btnsNoMar a {
+    margin: 0 40px 0 0;
+}
+.btn {
+    width: 110px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #fff;
+}
+.btnBlue {
+    background: #2a8fe6;
+    border: 1px #1a79cb solid;
+}
+.btnBlue:hover {
+    background: #1b7dd2;
+}
+.btnGreen {
+    background: #58b958;
+    border: 1px #44a144 solid;
+}
+.btnGreen:hover {
+    background: #45a945;
+}
+.btnWhite {
+    background: #fff;
+    border: 1px #ccc solid;
+    color: #000;
+}
+.btnWhite:hover {
+    background: #EBEBEB;
+    color: #000;
+}
+.bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+.titleDiv {
+    font-size: 18px;
+    color: #474747;
+    line-height: 58px;
+    border-bottom: 1px #EFECEC solid;
+    font-weight: bold;
+}
+.contentDiv {
+    padding: 20px 0 0;
+    height: auto;
+    overflow: hidden;
+}
+.naviDiv {
+    position: relative;
+    margin-left: 38px;
+}

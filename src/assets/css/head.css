@@ -1,0 +1,53 @@
+.header {
+    width:220px;
+    min-height:100%;
+    background-color: #2187e5;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    float:left;
+}
+
+.header .meizuLogo {
+    width: 100%;
+    display: block;
+    background: url(../../assets/images/logo.png) center top no-repeat;
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../assets/images/logo.png');
+    margin:0 auto;
+    text-align:center;
+    padding:52px 0 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.header .nav{
+    width:100%;
+    margin:20px 0 0;
+}
+
+.header .nav .el-submenu__title{
+    padding:0 0 0 70px!important;
+    color:#fff;
+}
+
+.header .nav .el-menu--dark{
+    background:#2187e5;
+}
+.header .nav .el-menu-item{
+    padding:0 0 0 70px!important;
+}
+.header .userInfo {
+    height: 62px;
+    line-height: 62px;
+    float: right;
+    padding: 0 15px 0 35px;
+    color: #fff;
+    background: url(../../assets/images/avata.png) no-repeat;
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../assets/images/avata.png');
+}
+
+.header .userInfo a {
+    color: #fff;
+}
